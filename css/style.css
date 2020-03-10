@@ -1,0 +1,86 @@
+#wrapContent {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#wrapSearch {
+  display: flex;
+}
+#wrapSearch input {
+  outline: none;
+  padding-left: 5px;
+}
+#wrapSearch .btn {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+#wrapSearch .btn:hover {
+  opacity: 0.8;
+}
+#wrapSearch .search {
+  background-color: #00d500;
+}
+#wrapSearch .home {
+  background-color: #1f4dc2;
+}
+
+#searchingMovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 0 auto;
+}
+#searchingMovies div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+#moreInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  margin: 0 auto;
+}
+#moreInfo button.btnBack {
+  background-color: rgba(222, 3, 255, 0.74);
+  color: #fff;
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+#moreInfo button.btnBack:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+}
+#moreInfo .recommend {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#moreInfo .recommend .titleRecommend {
+  margin: 10px 0;
+  font-size: 18px;
+}
+#moreInfo .recommend ul {
+  margin: 0;
+}
+
+.descImg {
+  width: 80%;
+  height: 80%;
+  margin-top: 5vh;
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */

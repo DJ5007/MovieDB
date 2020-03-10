@@ -1,0 +1,94 @@
+#wrapContent{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#wrapSearch{
+    display: flex;
+
+    input{
+        outline: none;
+        padding-left: 5px;
+    }
+
+    .btn{
+        margin-right: 10px;
+        cursor: pointer;
+        color: #fff;
+        outline: none;
+        border: none;
+
+        &:hover{
+            opacity: .8;
+        }
+    }
+
+    .search{
+        background-color: #00d500;
+    }
+    .home{
+        background-color: #1f4dc2;
+    }
+}
+
+#searchingMovies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin: 0 auto;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+}
+
+#moreInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    margin: 0 auto;
+
+    button.btnBack {
+        background-color: rgba(222, 3, 255, 0.74);
+        color: #fff;
+        padding: 5px 15px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition: .2s ease-in;
+
+        &:hover{
+            opacity: .8;
+            box-shadow: 0 0 10px 2px rgba(0,0,0,.3);
+        }
+    }
+    .recommend{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .titleRecommend{
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        ul{
+            margin: 0;
+        }
+    }
+}
+
+.descImg{
+    width: 80%;
+    height: 80%;
+    margin-top: 5vh;
+    box-shadow: 0 0 12px 3px rgba(0,0,0,.5);
+}
+
+
